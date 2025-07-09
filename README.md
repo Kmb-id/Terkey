@@ -17,17 +17,12 @@
 
 ### HOW TO CREATE (MANUAL) :
 #
-- Open your TERMUX APPLICATION
+- Open your TERMUX Apk
   - Step 1 :
-    - ```apt-get update``` 
-    - ```apt-get upgrade -y``` 
-    - ```termux-setup-storage```
+    - ```apt-get update;apt-get upgrade -y;termux-setup-storage```
       
   - Step 2 :
-    - ```cd ~```
-    - ```mkdir .termux```
-    - ```cd .termux```
-    - ```curl https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/termux.properties -o termux.properties```
+    - ```cd ~;mkdir .termux;cd .termux;curl https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/termux.properties -o termux.properties```
       
   - Step 3 :
     - ```cd ~```
@@ -35,3 +30,19 @@
       
 - 👍 DONE ✅
 #
+
+### Do you want reposition/modification button Key :
+#
+- Open your TERMUX Apk
+  - command :
+    - ```cd ~/.termux;nano termux.properties```
+  - Edit the text you want to change
+  - SAVE by pressing the ```CTRL``` key then the letter ```X``` and the letter ```Y```
+- RELOAD / Restart Termux
+  - ```termux-reload-settings```
+- 👍DONE✅
+#
+### Hope it is useful !!! 
+- Enjoy & Have Funn . . .
+- Keep Smile 😁
+
