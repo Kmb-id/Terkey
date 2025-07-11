@@ -21,7 +21,7 @@
   - Step 1 :
     - ```apt-get update;apt-get upgrade -y;termux-setup-storage```
   - Step 2 :
-    - ```cd ~;mkdir .termux;cd .termux;curl https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/termux.properties -o termux.properties```
+    - ```cd ~;mkdir .termux;curl https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/termux.properties -o termux.properties```
   - Step 3 :
     - ```cd ~```
     - ```termux-reload-settings```
