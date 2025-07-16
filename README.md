@@ -12,7 +12,7 @@
 ### <b>Downloads aplikasi Termux
 - For Android 5 or 6 :</b><br>👉 [{Here}](https://sfile.mobi/1Uz4YvUJyoO7)  </br>
    • How fix's Error installation  :</b><br> [{step for android 5 or 6}](https://github.com/Kmb-id/Tampilan-termux/blob/main/Command.md)  </br><br>
-- For Android 7+ :</b><br>👉 [{Here}](https://sfile.mobi/7LFOvPrMqcd)  </br>
+- For Android 7+ :</b><br>👉 [{Here}](https://sfile.mobi/download/7LFOvPrMqcd?fid=N0xGT3ZQck1xY2Qma2V5PUYxRDI1OUY0MzlBN0ZFMzc-)  </br>
 <b> or</b><br>👉 [{other version}](https://f-droid.org/packages/com.termux/) </br>
 
 - Termux-styling :<br>
