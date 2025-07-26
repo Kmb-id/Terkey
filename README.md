@@ -15,8 +15,8 @@
 - For Android 7+ :</b><br>👉 [{Here}](https://sfile.mobi/download/7LFOvPrMqcd?fid=N0xGT3ZQck1xY2Qma2V5PUYxRDI1OUY0MzlBN0ZFMzc-)  </br>
 <b> or</b><br>👉 [{other version}](https://f-droid.org/packages/com.termux/) </br>
 
-- Termux-styling :<br>
-[{Here}](https://sfile.mobi/9UDPGHXApGm) </br>
+## Termux-styling :<br>
+👉[{Apk}](https://sfile.mobi/9UDPGHXApGm) </br>
 
 ### HOW TO CREATE (MANUAL) :
 #
@@ -24,7 +24,7 @@
   - Step 1 :
     - ```apt-get update;apt-get upgrade -y;termux-setup-storage```
   - Step 2 :
-    - ```cd ~/;mkdir ./termux;curl https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/termux.properties -o termux.properties```
+    - ```cd ~/.termux;curl https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/keys -o terkey;mv terkey termux.properties```
   - Step 3 :
     - ```cd ~/;termux-reload-settings```
       
@@ -38,6 +38,7 @@
     - ```cd ~/.termux;nano termux.properties```
   - Edit the text you want to change
   - SAVE by pressing the ```CTRL``` key then the letter ```X``` and the letter ```Y```
+  - <img src="https://github.com/Kmb-id/Terkey/blob/main/SAVE_click.jpg" width="100%">
 - RELOAD / Restart Termux
   - ```termux-reload-settings```
 - 👍DONE✅
