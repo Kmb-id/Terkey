@@ -28,6 +28,8 @@
   - Step 3 :
     - ```cd ~/;termux-reload-settings```
       
+  - Or one singel command
+    - ```apt-get update;apt-get upgrade -y;termux-setup-storage;cd ~/.termux;curl https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/keys -o terkey;mv terkey termux.properties;cd ~/;termux-reload-settings```
 - 👍 DONE ✅
 #
 
@@ -38,7 +40,7 @@
     - ```cd ~/.termux;nano termux.properties```
   - Edit the text you want to change
   - SAVE by pressing the ```CTRL``` key then the letter ```X``` and the letter ```Y```
-  - <img src="https://github.com/Kmb-id/Terkey/blob/main/SAVE_click.jpg" width="100%">
+  - <img src="https://github.com/Kmb-id/Terkey/blob/main/SAVE_click.jpg" width="50%">
 - RELOAD / Restart Termux
   - ```termux-reload-settings```
 - 👍DONE✅
