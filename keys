@@ -1,0 +1,4 @@
+shortcut.create-session = ctrl + n
+shortcut.next-session = ctrl + s
+shortcut.previous-session = ctrl + w
+extra-keys = [['*','%','+','@','~',':',';','&'],['ESC','ALT','-','HOME','UP','END','PGUP','DEL'],['TAB','CTRL','/','LEFT','DOWN','RIGHT','PGDN','BKSP']]
