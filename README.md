@@ -6,7 +6,12 @@
     ```
   - running :
     ```
-    ./Terkey.sh
+    bash terkey. sh
+    ```
+    - ATAU
+    
+    ```
+    ./terkey.sh
     ```
   <img src="https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/Termux-Extra_Key.jpg" width="100%">
   
