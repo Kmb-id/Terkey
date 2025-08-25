@@ -1,5 +1,13 @@
 # TERKEY
 - Extra keyboard Termux
+  - beri kan izin :
+    ```
+    chmod +x *
+    ```
+  - running :
+    ```
+    ./Terkey.sh
+    ```
   <img src="https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/Termux-Extra_Key.jpg" width="100%">
   
 <h1 align="center">L4EROOR</h1>
