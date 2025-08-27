@@ -1,17 +1,26 @@
 # TERKEY
 - Extra keyboard Termux
+- USAGE :
+  - Cloning Tools
+    ```
+    git clone https://github.com/Kmb-id/Terkey
+    ```
+     ```
+    cd Terkey
+    ```
+    
   - beri kan izin :
     ```
     chmod +x *
     ```
   - running :
     ```
-    bash terkey. sh
+    bash key. sh
     ```
     - ATAU
     
     ```
-    ./terkey.sh
+    ./key.sh
     ```
   <img src="https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/Termux-Extra_Key.jpg" width="100%">
   
