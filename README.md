@@ -1,6 +1,9 @@
 # TERKEY
-- DEMO (Extra Keyboards Termux) 
-  <img src="https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/Termux-Extra_Key.jpg" width="100%">
+- Tampilan Tools :
+  <img src="https://github.com/Kmb-id/Terkey/blob/main/image.jpg/Menu_Tool.jpg" width="100%">
+  
+- Hasil Extra Key
+  <img src="https://github.com/Kmb-id/Terkey/blob/main/image.jpg/Termux-Extra_Key.jpg" width="100%">
   
 - USAGE :
   - Cloning Tools
@@ -64,7 +67,7 @@
     - ```cd ~/.termux;nano termux.properties```
   - Edit the text you want to change
   - SAVE by pressing the ```CTRL``` key then the letter ```X``` and the letter ```Y```
-  - <img src="https://github.com/Kmb-id/Terkey/blob/main/SAVE_click.jpg" width="50%">
+  - <img src="[https](https://github.com/Kmb-id/Terkey/blob/main/image.jpg/SAVE_click.jpg)" width="50%">
 - RELOAD / Restart Termux
   - ```termux-reload-settings```
 - 👍DONE✅
