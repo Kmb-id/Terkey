@@ -18,7 +18,7 @@ check_deps() {
     for dep in "${deps[@]}"; do
         if ! command -v "$dep" &>/dev/null; then
             echo -e "${R}Error:${W} '$dep' belum terinstall."
-            echo -e "Silakan install terlebih dahulu, contoh: ${Y}pkg install $dep${W}"
+            echo -e "Silakan INSTALL terlebih dahulu, Contoh: ${Y}pkg install $dep${W}"
             exit 1
         fi
     done
@@ -27,27 +27,27 @@ check_deps() {
 # Install
 install_keys() {
     clear
-    echo -e "${G}Menginstall Extra Keys..."
+    echo -e "${G}Meng-INSTALL Extra Keys..."
     mkdir -p "$HOME/.termux"
     curl -s https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/keys \
         -o "$HOME/.termux/termux.properties"
     termux-reload-settings
-    echo -e "${G}Selesai.${W}"
-    read -rp "Tekan Enter untuk kembali ke menu..."
+    echo -e "${G}SUCCESS.${W}"
+    read -rp "Tekan [ENTER] untuk kembali ke MENU ..."
 }
 
 # Uninstall
 uninstall_keys() {
     clear
-    echo -e "${R}Menghapus Extra Keys..."
+    echo -e "${R}Meng-HAPUS/DELETE Extra Keys..."
     if [ -f "$HOME/.termux/termux.properties" ]; then
         rm -f "$HOME/.termux/termux.properties"
         termux-reload-settings
-        echo -e "${G}Uninstall berhasil.${W}"
+        echo -e "${G}Uninstall SUCCESS.${W}"
     else
         echo -e "${Y}Tidak ada konfigurasi Extra Keys yang terpasang.${W}"
     fi
-    read -rp "Tekan Enter untuk kembali ke menu..."
+    read -rp "Tekan [ENTER] untuk kembali ke MENU ..."
 }
 
 # Edit Keys
@@ -58,15 +58,15 @@ edit_keys() {
     nano "$HOME/.termux/termux.properties"
     termux-reload-settings
     echo -e "${G}Konfigurasi berhasil diperbarui.${W}"
-    read -rp "Tekan Enter untuk kembali ke menu..."
+    read -rp "Tekan [ENTER] untuk kembali ke MENU ..."
 }
 
 # Menu
 main_menu() {
     local items=(
-        1 "Install"
-        2 "Uninstall"
-        3 "Edit Keys"
+        1 "INSTALL"
+        2 "UNINSTALL"
+        3 "EDIT Keys"
         4 "Exit"
     )
 
