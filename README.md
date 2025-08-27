@@ -1,6 +1,6 @@
 # TERKEY
 - Tampilan Tools :
-  <img src="https://github.com/Kmb-id/Terkey/blob/main/image.jpg/Menu_Tool.jpg" width="100%">
+  <img src="https://github.com/Kmb-id/Terkey/blob/main/image.jpg/Menu_Tool.jpg" width="60%">
   
 - Hasil Extra Key
   <img src="https://github.com/Kmb-id/Terkey/blob/main/image.jpg/Termux-Extra_Key.jpg" width="100%">
@@ -67,7 +67,7 @@
     - ```cd ~/.termux;nano termux.properties```
   - Edit the text you want to change
   - SAVE by pressing the ```CTRL``` key then the letter ```X``` and the letter ```Y```
-  - <img src="[https](https://github.com/Kmb-id/Terkey/blob/main/image.jpg/SAVE_click.jpg)" width="50%">
+  - <img src="https://github.com/Kmb-id/Terkey/blob/main/image.jpg/SAVE_click.jpg" width="50%">
 - RELOAD / Restart Termux
   - ```termux-reload-settings```
 - 👍DONE✅
