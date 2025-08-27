@@ -1,5 +1,7 @@
 # TERKEY
-- Extra keyboard Termux
+- DEMO (Extra Keyboards Termux) 
+  <img src="https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/Termux-Extra_Key.jpg" width="100%">
+  
 - USAGE :
   - Cloning Tools
     ```
@@ -22,7 +24,7 @@
     ```
     ./key.sh
     ```
-  <img src="https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/Termux-Extra_Key.jpg" width="100%">
+
   
 <h1 align="center">L4EROOR</h1>
 <p align="center">
