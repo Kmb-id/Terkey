@@ -45,33 +45,6 @@
 ## Termux-styling :<br>
 👉[{Apk}](https://sfile.mobi/9UDPGHXApGm) </br>
 
-### HOW TO CREATE (MANUAL) :
-#
-- Open your TERMUX Apk
-  - Step 1 :
-    - ```apt-get update;apt-get upgrade -y;termux-setup-storage```
-  - Step 2 :
-    - ```cd ~/.termux;curl https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/keys -o terkey;mv terkey termux.properties```
-  - Step 3 :
-    - ```cd ~/;termux-reload-settings```
-      
-  - Or one singel command
-    - ```apt-get update;apt-get upgrade -y;termux-setup-storage;cd ~/.termux;curl https://raw.githubusercontent.com/Kmb-id/Terkey/refs/heads/main/keys -o terkey;mv terkey termux.properties;cd ~/;termux-reload-settings```
-- 👍 DONE ✅
-#
-
-### Do you want reposition/modification button Key :
-#
-- Open your TERMUX Apk
-  - command :
-    - ```cd ~/.termux;nano termux.properties```
-  - Edit the text you want to change
-  - SAVE by pressing the ```CTRL``` key then the letter ```X``` and the letter ```Y```
-  - <img src="https://github.com/Kmb-id/Terkey/blob/main/image.jpg/SAVE_click.jpg" width="50%">
-- RELOAD / Restart Termux
-  - ```termux-reload-settings```
-- 👍DONE✅
-#
 ### Do you want Delete ```Terkey``` and Return to default
 - command :
   - ```cd ~;rm -rf .termux;termux-reload-settings```
