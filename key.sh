@@ -33,8 +33,8 @@ check_deps() {
     local deps=("dialog" "curl" "jq" "toilet" "termux-reload-settings" "nano")
     for dep in "${deps[@]}"; do
         if ! command -v "$dep" &>/dev/null; then
-            echo -e "${R}Error:${W} '$dep' belum terinstall."
-            echo -e "${N}Silakan INSTALL terlebih dahulu, Contoh: ${W}pkg ${B}install ${G}$dep${N}"
+            echo -e "${R}Error:${W} '$dep' ${R}belum terinstall."
+            echo -e "${N}Silakan ${G}INSTALL ${N}terlebih dahulu,\n Contoh: ${W}pkg ${B}install ${G}$dep${N}"
             exit 1
         fi
     done
